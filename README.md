@@ -1,12 +1,12 @@
-# CCB Bill Analyzer
+# Credit Bill Analyzer
 
-中国建设银行信用卡账单 & 储蓄卡交易流水分析工具。
+信用卡账单 & 银行交易流水分析工具。
 
 ## 功能
 
 - 支持 **CSV / TXT / PDF** 三种格式输入
-  - CSV/TXT：建行信用卡账单（GBK 编码）
-  - PDF：建行储蓄卡交易流水明细清单（pdfplumber 表格提取）
+  - CSV/TXT：信用卡账单（GBK 编码）
+  - PDF：银行交易流水明细清单（pdfplumber 表格提取）
 - 自动 **LLM 分类**：基于商户名称智能归入 12 大消费类别
 - 输出两份文件：
   - `信用卡账单汇总_YYYYMMDD_HHMMSS.xlsx` — 结构化 Excel 报表
